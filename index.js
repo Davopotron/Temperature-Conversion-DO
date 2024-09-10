@@ -42,9 +42,9 @@ function describeTemperature(f) {
     message="very hot";
   }
 
-  return `${f}` f is ${celcius}
+  return `${f}` f is ${celcius};
   }
-
+console.log(describeTemperature);
 
 
 
@@ -52,10 +52,10 @@ function describeTemperature(f) {
  * @param {number} limit
  * @returns {number} a random integer in the range [0, `limit`)
  */
-function getRandomInt(limit) {
-  
-  let output=
 
+let getRandomInt=rand(64)*cond2Cel;
+function getRandomInt(limit) {
+  return Math.floor(math.rand()*limit);  
 }
 
 // -------------------- DO NOT CHANGE THE CODE BELOW ---------------------- //
