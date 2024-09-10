@@ -6,8 +6,12 @@
  * @returns {number} temperature in °C
  */
 function convertToCelsius(f) {
-  // TODO
+  return (f-32)*(5/9);
 }
+
+let inputCel=prompt('64');
+let cond2Cel=inputCel*convertToCelsius;
+console.log(convertToCelsius);
 
 /**
  * | Temperature | Description |
@@ -23,15 +27,35 @@ function convertToCelsius(f) {
  * the given Fahrenheit temperature `f`
  */
 function describeTemperature(f) {
-  // TODO
-}
+  let message="";
+  const tempDescr=f*1;
+
+  if(tempDescr<32) {
+    message="very cold";
+  } else if(tempDescr<64) {
+    message="cold";
+  } else if(tempDescr<86) {
+    message="warm";
+  } else if(tempDescr<100) {
+    message="hot";
+  } else(tempDescr>=100) {
+    message="very hot";
+  }
+
+  return `${f}` f is ${celcius};
+  }
+console.log(describeTemperature);
+
+
 
 /**
  * @param {number} limit
  * @returns {number} a random integer in the range [0, `limit`)
  */
+
+let getRandomInt=rand(64)*cond2Cel;
 function getRandomInt(limit) {
-  // TODO
+  return Math.floor(math.rand()*limit);  
 }
 
 // -------------------- DO NOT CHANGE THE CODE BELOW ---------------------- //
