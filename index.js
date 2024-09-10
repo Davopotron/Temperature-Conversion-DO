@@ -41,6 +41,8 @@ function describeTemperature(f) {
   } else(tempDescr>=100) {
     message="very hot";
   }
+
+  return `${f}` f is ${celcius}
   }
 
 
@@ -51,7 +53,9 @@ function describeTemperature(f) {
  * @returns {number} a random integer in the range [0, `limit`)
  */
 function getRandomInt(limit) {
-  // TODO
+  
+  let output=
+
 }
 
 // -------------------- DO NOT CHANGE THE CODE BELOW ---------------------- //
